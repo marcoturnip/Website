@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Bootstrap 4-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="./yayasan/assets/css/index.css" />
+
+    <title>Yayasan Melania Bandung</title>
+    <link rel="shortcut icon" href="new-favicon.png" type="image/icon" />
+</head>
+
+<!-- Navbars-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./yayasan/assets/images/Logo-New-modified.png" alt="Logo" style="width: 38px"
+                        class="rounded-circle" id="namaYayasan" />
+                    <span class="navbar-namayayasan" href="index.html">
+                        Yayasan Melania Bandung
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a id="beranda" class="nav-link" href="#carouselExampleIndicators">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Unit</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./tpamelania/">(TPA) Taman Penitipan Anak Santa Melania</a></li>
+                        <li><a class="dropdown-item" href="./tkmelania/">(TK) Taman Kanak-Kanak Santa Melania</a></li>
+                        <li><a class="dropdown-item" href="./sdmelania/">(SD) Sekolah Dasar Santa Melania</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Berita dan Acara</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./yayasan/ppdb/">PPDB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./yayasan/galery/">Galery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Karir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontak">Hubungi Kami</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbars-->
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="600">   
+
+    <!-- Body Content-->
+    <div class="container-fluids">
+        <div class="row">
+            <!-- Slide Foto-->
+            <div id="beranda" class="col-xl-12 bg-dark text-white">
+                <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+                    <div class="carousel-indicators">
+                        <button aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                            data-bs-target="#carouselExampleIndicators" type="button"></button>
+                        <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button>
+                        <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button>
+                        <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button>
+                        <button aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleIndicators"
+                            type="button"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            style="background-image: url('./yayasan/assets/images/kerjasama.jpg')";>
+                            <div class="carousel-caption">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">
+                                    Kerjasama
+                                </h5>
+                                <p class="animated bounceInLeft" style="animation-delay: 2s">
+                                    Kerja sama antara orang tua dan guru akan mendorong siswa untuk senantiasa
+                                    melaksanakan tugasnya sebagai pelajar, yakni belajar dengan tekun dan bersemangat.
+                                </p>
+                                
+                                <!-- <p class="animated bounceInRight" style="animation-delay: 3s">
+                                    <a href="#">Learn More</a>
+                                </p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('./yayasan/assets/images/pelayanan.jpg');">
+                            <div class="carousel-caption">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">
+                                    Pelayanan
+                                </h5>
+                                <p class="animated bounceInLeft" style="animation-delay: 2s">
+                        
+                                    Kualitas layanan pendidikan dapat diketahui dengan cara membandingkan persepsi dan ekpektasi siswa terhadap layanan pendidikan yang benar- benar mereka peroleh selama proses pendidikan yang di tempuh.
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('./yayasan/assets/images/integritas.jpg') ;">
+                 
+                            <div class="carousel-caption">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">
+                                    Integritas
+                                </h5>
+                                <p class="animated bounceInLeft" style="animation-delay: 2s">
+                                    Upaya penyatuan, proses pengubahan sikap dan tingkah laku seseorang atau kelompok dalam usaha mendewasakan manusia melalui pembelajaran.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('./yayasan/assets/images/kasih.jpg');">
+                            <div class="carousel-caption">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">
+                                    Kasih
+                                </h5>
+                                <p class="animated bounceInLeft" style="animation-delay: 2s">
+                                    Kerjasama, Abdi, Sopan, Ikhlas dan Hangat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('./yayasan/assets/images/kesabaran.jpg') ;">
+                            <!-- <img alt="..." class="d-block" src="https://rb.gy/lf3cv4" /> -->
+                            <div class="carousel-caption">
+                                <h5 class="animated bounceInRight" style="animation-delay: 1s">
+                                    Kesabaran
+                                </h5>
+                                <p class="animated bounceInLeft" style="animation-delay: 2s">
+                                    Sabar dalam menghadapi mereka pada saat proses belajar mengajar. Kesabaran seorang guru akan membuat anak didik merasa nyaman dalam belajar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" data-bs-slide="prev"
+                        data-bs-target="#carouselExampleIndicators" type="button">
+                        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next"
+                        data-bs-target="#carouselExampleIndicators" type="button">
+                        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Penjelasan Unit-->
+    <div class="col-md-12 text-black">
+        <div class="section-unit row">
+            <div class="unit col-sm-4">
+                <h5>Taman Penitipan Anak Melania</h5>
+                <p>
+                    Taman Penitipan Anak (TPA) merupakan salah satu bentuk satuan PAUD
+                    jalur pendidikan nonformal yang menyelenggarakan program pendidikan
+                    bagi anak sejak lahir sampai dengan usia 6 (enam) tahun dengan prioritas
+                    sejak lahir sampai usia 4 tahun.
+                </p>
+                <div class="btn-more col-sm-8">
+                    <a href="./tpamelania/" class="btn">Info lebih lanjut</a>
+                </div>
+            </div>
+
+            <div class="unit col-sm-4">
+                <h5>Taman Kanak-Kanak Santa Melania</h5>
+                <p>
+                    Taman Kanak-Kanak (TK) adalah jenjang pendidikan anak usia dini (PAUD) dalam bentuk pendidikan
+                    formal yang bersedia untuk anak berumur 6 tahun ke bawah. Kurikulum TK ditekankan pada pemberian
+                    rangsangan pendidikan untuk membantu pertumbuhan dan perkembangan jasmani dan rohani agar anak
+                    memiliki kesiapan dalam memasuki pendidikan lebih lanjut.
+                </p>
+                <div class="btn-more col-sm-8">
+                    <a href="./tkmelania/" class="btn">Info lebih lanjut</a>
+                </div>
+            </div>
+
+            <div class="unit col-sm-4">
+                <h5>Sekolah Dasar Santa Melania</h5>
+                <p>
+                    Sekolah Dasar (disingkat SD) adalah jenjang dasar pada pendidikan formal di Indonesia. Sekolah
+                    Dasar ditempuh dalam waktu 6 tahun, mulai dari kelas 1 sampai kelas 6. Saat ini murid kelas 6
+                    diwajibkan mengikuti Ujian Nasional yang mempengaruhi kelulusan siswa. Lulusan Sekolah Dasar
+                    dapat melanjutkan pendidikan ke tingkat SMP/SLTP.
+                </p>
+                <div class="btn-more col-sm-8">
+                    <a href="./sdmelania/" class="btn">Info lebih lanjut</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profil Yayasan-->
+    <div class="col-md-12 text-black container-fluids" id="profile">
+        <div class="section-unit row">
+            <div  class="profil col-md-12">
+                <h5>Profil</h5>
+                <p>
+                    Orang suci pelindung Yayasan Melania Bandung adalah Santa Melania. Melania dilahirkan di Roma
+                    tahun 383
+                    SM. Melania mengikuti ajaran Santo Agustinus untuk mencarikan dana bagi orang-orang miskin.
+                    Semangat Santa Melania menggugah dan memberi semangat kaum wanita di Indonesia. Pada tanggal 2
+                    Februari
+                    1930 dibentuklah kepengurusan yang semuanya wanita keturunan Belanda sejumlah 7 orang. Pada 31
+                    Mei 1953
+                    dilantiklah kepengurusan yang pertama kali diketuai oleh putri berkebangsaan Indonesia yaitu Ny.
+                    R. D.
+                    Maria Patmah (1913-1982).
+                    Pada 1954 dan 1955 dibukalah Sekolah Taman Kanak-kanak dan Sekolah Dasar. Karya Melania Bandung
+                    mengalami perkembangan status menjadi Yayasan Melania pada 17 Mei 1958. Saat ini Yayasan Melania
+                    dikenal
+                    sebagai Yayasan Melania Bandung (YMB) sejak 7 November 2011.
+                    Sekolah Santa Melania berada di lokasi yang strategis, yaitu di belakang gedung RRI Jalan
+                    Diponegoro,
+                    tepatnya di Jalan Melania no. 1-3 Cihaurgeulis Cibeunying Kaler, Bandung 40122. Sekolah Santa
+                    Melania
+                    terdiri dari TK yang memiliki 1 lantai dan SD 2 lantai.
+                    Pada 2016 SD St. Melania mendapatkan nilai akreditasi A, dan pada 2019 TK Santa Melania mendapat
+                    nilai
+                    akreditasi B.
+                    Selain TK dan SD, Yayasan Melania Bandung memiliki Tempat Penitipan Anak (TPA).
+                </p>
+            </div>
+
+            <div class="visi col-md-6">
+                <h5>Visi</h5>
+                <p>
+                    Terwujudnya tugas mulia pelayanan dan pengabdian secara sederhana dan bersahaja, berlandaskan
+                    semangat iman kasih Kristiani, terutama kepada sesama yang terpinggirkan dan mengalami kesesakan
+                    hidup, dengan tetap menjunjung tinggi nilai-nilai kemanusiaan yang luhur dan mendasar.
+                </p>
+            </div>
+
+            <div class="misi col-sm-6">
+                <h5>Misi</h5>
+                <p>
+                    Dalam Upaya pemberdayaan sesama yang terpinggirkan dan mengalami kesesakan hidup, sesuai
+                    dengan iman Kristiani, kami menyelenggarakan pelayanan dan pengabdian dalam bidang:
+                    Kesehata, Pendidikan, serta Pendamping tubuh kembang anak.
+                </p>
+            </div>
+
+            <div class="nilai col-md-12">
+                <h5>Nilai</h5>
+                <p>
+                    ⦿ KASIH (Kerjasama, Abdi, Sopan, Ikhlas, Hangat) <br>
+                    ⦿ Kesederhanaan <br>
+                    ⦿ Pelayanan <br>
+                    ⦿ Integritas (Kejujuran, Etika, Disiplin) <br>
+                    ⦿ Kerelaan <br>
+                    ⦿ Kesabaran <br>
+                </p>
+            </div>
+
+            <div class="tujuan-organisasi col-md-12">
+                <h5>Tujuan Organisasi</h5>
+                <p>
+                    ⦿ Memberdayakan sesama yang terpinggirkan dan mengalami Kesesakan hidup, terutama kaum perempuan dan anak. <br>
+                    ⦿ Menyelenggarakan pelayanan kesehatan yang menyeluruh, baik jasmani maupun rohani. <br>
+                    ⦿ Menyelenggarakan pelayanan pendidikan yang mengembangkan kemampuan dan budi pekerti peserta didik. <br>
+                    ⦿ Menyelenggarakan pelayanan pendampingan tumbuh kembang anak yang sesuai dengan kebutuhan. <br>
+                    ⦿ Menyelenggarakan pelayanan anak asuh dalam bidang pendidikan.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--Kontak-->
+    <div class="kontak col-md-12 text-black container-fluids" id="kontak">
+        <H2>KONTAK<br>Yayasan Melania Bandung</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=-6.90018665563626,%20107.62382005033082&t=k&z=19&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    </div>
+                </div>
+            </div>
+            <div class="detailKontak col-md-6">
+                <div class="row">
+                    <div class="col-md-1"><img src="./yayasan/assets/images/location.png" alt="location">
+                    </div>
+                    <div class="col-md-11">
+                        <h5>Alamat:</h5>
+                        <h6>Jl. Melania No. 1, Kota Bandung, Jawa Barat 40122</h6>
+                    </div>
+
+                    <div class="col-md-1"> <img src="./yayasan/assets/images/whatsapp.png" alt="WhatsApp">
+                    </div>
+                    <div class="col-md-11">
+                        <h5>WhatsApp/Handphone:</h5>
+                        <h6> <a href="http://wa.me/628112021930?text=Hallo,%20Yayasan%20Melania%20Bandung."
+                                target="_blank">
+                                0811 2021 930 &nbsp;&nbsp;<button>Chat Sekarang <i
+                                        class='fa fa-commenting-o'></i></a></button>
+                        </h6>
+                    </div>
+
+                    <div class="col-md-1"><img src="./yayasan/assets/images/world-wide-web.png" alt="Website"> </div>
+                    <div class="col-md-11">
+                        <h5>Website:</h5>
+                        <h6><a id="beranda" href="#home">yayasanmelaniabandung.sch.id</a></h6>
+                    </div>
+
+                    <div class="col-md-1"> <img src="./yayasan/assets/images/gmail.png" alt="gmail">
+                    </div>
+                    <div class="col-md-11 ">
+                        <h5>E-Mail:</h5>
+                        <h6><a
+                                href="mailto:yayasan.melania.bandung@gmail.com?subject=Hallo!&cc=it.yayasanmelania@gmail.com">yayasan.melania.bandung@gmail.com</a>
+                        </h6>
+                    </div>
+
+                    <div class="col-md-1"> <img src="./yayasan/assets/images/social-medias.png" alt="social-media" width="32px"
+                            height="32px"> </div>
+                    <div class="col-md-11">
+                        <h5>Sosial Media:</h5>
+                        <div class="col-md-12">
+                            <h6><img src="./yayasan/assets/images/facebook.png" alt="facebook"><a
+                                    href="https://www.facebook.com/Yayasan-Melania-Bandung-101383279249119"
+                                    target="_blank">&nbsp;Facebook: Yayasan Melania Bandung</h6></a>
+                        </div>
+                        <div class="col-md-12">
+                            <h6><img src="./yayasan/assets/images/instagram.png" alt="facebook"><a
+                                    href="https://www.instagram.com/yayasanmelaniabandung/" target="_blank">&nbsp;
+                                    Instagram:
+                                    yayasanmelaniabandung</h6></a>
+                        </div>
+                        <div class="col-md-12">
+                            <h6><img src="./yayasan/assets/images/youtube.png" alt="facebook"><a
+                                    href="https://www.youtube.com/channel/UC3BPmDVRAZ72J-v2vWionOg"
+                                    target="_blank">&nbsp;YouTube: Yayasan Melania Bandung</h6></a>
+                        </div>
+                        <div class="col-md-12"><img src="./yayasan/assets/images/tiktok.png" alt="facebook"><a
+                                href="https://www.tiktok.com/@yayasanmelaniabandung" target="_blank">&nbsp;TikTok:
+                                @yayasanmelaniabandung</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<footer>
+    <div class="footer col-md-12">
+        <h5>Ⓒ 2022 | Yayasan Melania Bandung</h5>
+        <p>Development by IT Yayasan Melania Bandung</p> 
+    </div>
+</footer>
+
+</html>
